@@ -1,0 +1,8 @@
+#install4j response file for \u571F\u58E4\u4FE1\u606F\u7CFB\u7EDF 0.0.1
+#Sun Sep 08 20:34:44 CST 2013
+sys.programGroupAllUsers$Boolean=true
+sys.programGroupDisabled$Boolean=false
+sys.languageId=zh_CN
+sys.programGroupName=\u571F\u58E4\u4FE1\u606F\u7CFB\u7EDF
+sys.adminRights$Boolean=true
+sys.installationDir=D\:\\Program Files\\\u571F\u58E4\u4FE1\u606F

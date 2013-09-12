@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fileLog>
+<createdFiles>
+<entry name=".install4j\installation.log" shared="false" uninstallMode="0"/>
+<entry name="start.bat" shared="false" uninstallMode="0"/>
+<entry name="lib\mybatis-3.1.1.jar" shared="false" uninstallMode="0"/>
+<entry name="SOIL.exe" shared="false" uninstallMode="0"/>
+<entry name=".install4j\inst_jre.cfg" shared="false" uninstallMode="0"/>
+<entry name=".install4j\i4j_extf_0_a2azti.utf8" shared="false" uninstallMode="2"/>
+<entry name="C:\Documents and Settings\All Users\「开始」菜单\程序\土壤信息系统\SOIL.lnk" shared="false" uninstallMode="2"/>
+<entry name="uninstall.exe" shared="false" uninstallMode="0"/>
+<entry name="README.TXT" shared="false" uninstallMode="0"/>
+<entry name=".install4j\install.prop" shared="false" uninstallMode="0"/>
+<entry name=".install4j\autoUninstall.0" shared="false" uninstallMode="0"/>
+<entry name=".install4j\autoUninstall.1" shared="false" uninstallMode="0"/>
+<entry name=".install4j\MessagesDefault" shared="false" uninstallMode="2"/>
+<entry name="soil.jar" shared="false" uninstallMode="0"/>
+<entry name=".install4j\i4jinst.dll" shared="false" uninstallMode="2"/>
+<entry name="lib\sqlite-jdbc-3.7.2.jar" shared="false" uninstallMode="0"/>
+<entry name=".install4j\response.varfile" shared="false" uninstallMode="0"/>
+<entry name=".install4j\i4jruntime.jar" shared="false" uninstallMode="2"/>
+<entry name=".install4j\stats.properties" shared="false" uninstallMode="2"/>
+<entry name=".install4j\_shfoldr.dll" shared="false" uninstallMode="2"/>
+<entry name="SOIL.vmoptions" shared="false" uninstallMode="3"/>
+<entry name=".install4j\user.jar" shared="false" uninstallMode="2"/>
+<entry name=".install4j\i4jdel.exe" shared="false" uninstallMode="2"/>
+<entry name=".install4j\unicows.dll" shared="false" uninstallMode="2"/>
+<entry name=".install4j\i4jparams.conf" shared="false" uninstallMode="2"/>
+<entry name="C:\Documents and Settings\All Users\「开始」菜单\程序\土壤信息系统\土壤信息系统 卸载程序.lnk" shared="false" uninstallMode="2"/>
+</createdFiles>
+<createdDirs>
+<entry name="lib" shared="false" uninstallMode="0"/>
+<entry name=".install4j" shared="false" uninstallMode="2"/>
+<entry name="." shared="false" uninstallMode="0"/>
+<entry name="C:\Documents and Settings\All Users\「开始」菜单\程序\土壤信息系统" shared="false" uninstallMode="0"/>
+</createdDirs>
+</fileLog>

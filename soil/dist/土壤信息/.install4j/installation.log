@@ -1,0 +1,171 @@
+[INFO] logger started at Sun Sep 08 20:34:06 CST 2013
+[INFO] executable name: D:\soft\soil-install\土壤信息_windows_0_0_1.exe
+[INFO] install4j version: 5.1.6 (build 5598)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=D:\soft\soil-install\土壤信息_windows_0_0...
+sun.boot.library.path=d:\java\bin
+exe4j.semaphoreName=Local\d:_soft_soil-install_土壤信息_windo...
+java.vm.version=20.1-b02
+java.vm.vendor=Sun Microsystems Inc.
+java.vendor.url=http://java.sun.com/
+path.separator=;
+exe4j.consoleCodepage=cp0
+java.vm.name=Java HotSpot(TM) Client VM
+file.encoding.pkg=sun.io
+user.country=CN
+sun.os.patch.level=Service Pack 3
+install4j.exeDir=D:\soft\soil-install\
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\e4...
+java.runtime.version=1.6.0_26-b03
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs=d:\java\lib\endorsed
+os.arch=x86
+java.io.tmpdir=C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\
+line.separator=
+
+java.vm.specification.vendor=Sun Microsystems Inc.
+user.variant=
+exe4j.tempDir=C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\e4...
+os.name=Windows XP
+sun.java2d.noddraw=true
+sun.jnu.encoding=GBK
+java.library.path=D:\Python27\Lib\site-packages\django\...
+install4j.defaultLanguage=zh_CN
+java.specification.name=Java Platform API Specification
+java.class.version=50.0
+sun.management.compiler=HotSpot Client Compiler
+exe4j.isInstall4j=true
+os.version=5.1
+user.home=C:\Documents and Settings\Administrator
+user.timezone=Asia/Shanghai
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.specification.version=1.6
+file.encoding=GBK
+user.name=Administrator
+java.class.path=C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\e4...
+java.vm.specification.version=1.0
+sun.arch.data.model=32
+java.home=d:\java
+sun.java.command=D:\soft\soil-install\土壤信息_windows_0_0...
+exe4j.launchName=D:\soft\soil-install\土壤信息_windows_0_0...
+java.specification.vendor=Sun Microsystems Inc.
+user.language=zh
+awt.toolkit=sun.awt.windows.WToolkit
+java.vm.info=mixed mode, sharing
+exe4j.unextractedPosition=1504846
+java.version=1.6.0_26
+java.ext.dirs=d:\java\lib\ext;C:\WINDOWS\Sun\Java\l...
+sun.boot.class.path=d:\java\lib\resources.jar;d:\java\lib...
+java.vendor=Sun Microsystems Inc.
+install4j.appDir=C:\Documents and Settings\Administrat...
+file.separator=\
+java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport...
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+sun.desktop=windows
+sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+m...
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 13]: Execute action
+       Property allRequested: false
+       Property failIfNotObtainedMac: true
+       Property failIfNotObtainedWin: true
+       Property failIfNotRootUnix: false
+       Property obtainIfAdminMac: false
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalMac: false
+       Property obtainIfNormalWin: false
+       Property rollbackSupported: false
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+[INFO] checking writable with maximum
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: thread name AWT-EventQueue-0
+[INFO] Variable changed: sys.confirmedUpdateInstallation=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 3]: Execute action
+       Property excludedVariables: [sys.installationDir]
+       Property file: null
+       Property rollbackSupported: true
+       Variable changed: sys.programGroupName=土壤信息系统[class java.lang.String]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+       Variable changed: sys.languageId=zh_CN[class java.lang.String]
+       Variable changed: sys.adminRights=true[class java.lang.Boolean]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property checkFreeSpace: true
+       Property validateApplicationId: false
+       Property sizeCalculatorScript: null
+       Property installRuntime: true
+       Property saveDownloadedFiles: false
+       Property updateBundledJre: true
+       Property delay: false
+       Property triggerReboot: true
+       Property directoryResolverScript: null
+       Property fileFilterScript: null
+       Property showFileNames: true
+       Property rollbackSupported: true
+       Install file: D:\Program Files\土壤信息\README.TXT; size: 1320 bytes; exists: true
+       File options set to: [fileTime: Sun Sep 08 20:31:36 CST 2013, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\Program Files\土壤信息\SOIL.exe; size: 187392 bytes; exists: true
+       File options set to: [fileTime: Sun Sep 08 20:31:38 CST 2013, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       File times: 1378643498000, 1378642752000
+       Install file: D:\Program Files\土壤信息\SOIL.vmoptions; size: 248 bytes; exists: true
+       File options set to: [fileTime: Sun Sep 08 20:31:38 CST 2013, mode: 644, overwriteMode: Never, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Don't overwrite because file exists (ron: false)
+       Did not replace D:\Program Files\土壤信息\SOIL.vmoptions
+       Install file: D:\Program Files\土壤信息\lib\mybatis-3.1.1.jar; size: 651643 bytes; exists: true
+       File options set to: [fileTime: Sun Sep 08 20:31:36 CST 2013, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\Program Files\土壤信息\lib\sqlite-jdbc-3.7.2.jar; size: 3201128 bytes; exists: true
+       Install file: D:\Program Files\土壤信息\soil.jar; size: 51432 bytes; exists: true
+       Install file: D:\Program Files\土壤信息\start.bat; size: 49 bytes; exists: false
+       Install file: D:\Program Files\土壤信息\uninstall.exe; size: 211456 bytes; exists: true
+       File options set to: [fileTime: Sun Sep 08 20:31:40 CST 2013, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Windows version info marks file as older.
+       Install file: D:\Program Files\土壤信息\.install4j\inst_jre.cfg; size: 9 bytes; exists: true
+       File options set to: [fileTime: Sun Sep 08 20:34:32 CST 2013, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\Program Files\土壤信息\.install4j\i4jruntime.jar; size: 958667 bytes; exists: true
+       File options set to: [fileTime: Sun Sep 08 20:34:33 CST 2013, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: D:\Program Files\土壤信息\.install4j\MessagesDefault; size: 32732 bytes; exists: true
+       Install file: D:\Program Files\土壤信息\.install4j\i4jparams.conf; size: 15142 bytes; exists: true
+       Install file: D:\Program Files\土壤信息\.install4j\stats.properties; size: 285 bytes; exists: true
+       Install file: D:\Program Files\土壤信息\.install4j\user.jar; size: 3362 bytes; exists: true
+       Install file: D:\Program Files\土壤信息\.install4j\i4jdel.exe; size: 35224 bytes; exists: true
+       Install file: D:\Program Files\土壤信息\.install4j\i4jinst.dll; size: 132608 bytes; exists: true
+       Install file: D:\Program Files\土壤信息\.install4j\i4j_extf_0_a2azti.utf8; size: 27865 bytes; exists: true
+       Install file: D:\Program Files\土壤信息\.install4j\unicows.dll; size: 245408 bytes; exists: true
+       Install file: D:\Program Files\土壤信息\.install4j\_shfoldr.dll; size: 22528 bytes; exists: true
+       Execute action successful after 24531 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
+       Property linkDirectory: 
+       Property programGroupName: 土壤信息系统
+       Property allUsers: true
+       Property unixSymlinks: true
+       Property categories: Application
+       Property programGroupEntryConfigs: []
+       Property uninstallerMenuName: 土壤信息系统 卸载程序
+       Property addDefaultLauncherLinks: true
+       Property addUninstaller: true
+       Property failForSymlinksNotCreated: false
+       Property unixMenuEntries: true
+       Property rollbackSupported: true
+       Install file: C:\Documents and Settings\All Users\「开始」菜单\程序\土壤信息系统\SOIL.lnk; size: 615 bytes; exists: true
+       File options set to: [fileTime: Sun Sep 08 20:34:41 CST 2013, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\Documents and Settings\All Users\「开始」菜单\程序\土壤信息系统\土壤信息系统 卸载程序.lnk; size: 644 bytes; exists: true
+       File options set to: [fileTime: Sun Sep 08 20:34:42 CST 2013, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 813 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property itemName: 土壤信息系统 0.0.1
+       Property icon: null
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 922 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: command: finish
+       cleaning up
+       Finished

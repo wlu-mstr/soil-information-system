@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="SoilEntry">
+
+	<resultMap id="result" type="SoilEntry">
+		<result property="id" column="id" />
+		<result property="lng" column="lng" />
+		<result property="lat" column="lat" />
+		<result property="ph" column="ph" />
+                <result property="timestamp" column="timestamp" />
+	</resultMap>
+
+	<select id="getAll" resultMap="result">
+		SELECT * FROM soil_entry
+	</select>
+
+	<select id="getById" parameterType="int" resultMap="result">
+		SELECT * FROM
+		soil_entry WHERE id = #{id}
+	</select>
+        
+        <select id="selectByPh" parameterType="hashMap" resultMap="result">
+            select * from soil_entry where
+            ph &gt; #{start}
+            and ph &lt;= #{end}
+        </select>
+
+	<delete id="deleteById" parameterType="int">
+		DELETE from soil_entry WHERE
+		id = #{id};
+	</delete>
+
+	<insert id="insert" parameterType="SoilEntry">
+		INSERT INTO soil_entry (id, lng, lat,
+		ph, timestamp)
+		VALUES (#{id}, #{lng}, #{lat}, #{ph}, #{timestamp});
+
+	</insert>
+
+	<update id="update" parameterType="SoilEntry">
+		UPDATE soil_entry
+		SET
+		lng = #{lng},
+		lat = #{lat},
+		ph = #{ph},
+                timestamp = #{timestamp}
+		WHERE id = #{id};
+	</update>
+
+</mapper>
